@@ -164,8 +164,30 @@ Advisory, audit, training, speaking, community leadership, media, projects and s
 
 ## `./featured-open-source`
 
+### 🛡️ Release Sentry — Featured Security Tool
+
+**Inspect release artifacts before they become security incidents.**
+
+Release Sentry is a production-ready, local-first defensive CLI for scanning release packages
+before publication or deployment. It detects exposed secrets, hostile archive structures,
+sensitive files, unsafe permissions, missing production assets, broken static-site references,
+and policy violations—without uploading or executing artifact content.
+
+<p>
+  <a href="https://github.com/MrTaherAmine/release-sentry/releases/latest"><img src="https://img.shields.io/github/v/release/MrTaherAmine/release-sentry?display_name=tag&sort=semver&style=flat-square&color=00D4FF" alt="Release Sentry version"></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+">
+  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen?style=flat-square" alt="100% test coverage">
+  <a href="https://github.com/MrTaherAmine/release-sentry/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MrTaherAmine/release-sentry?style=flat-square&color=6C63FF" alt="MIT License"></a>
+</p>
+
+[**Explore Release Sentry →**](https://github.com/MrTaherAmine/release-sentry) ·
+[**Download v1.0.1 →**](https://github.com/MrTaherAmine/release-sentry/releases/latest)
+
+### More open-source work
+
 | Project | What it is | Explore |
 |---|---|---|
+| **Release Sentry** | Local-first security scanner for release artifacts, archives, secrets, unsafe permissions and policy violations. | [Repository →](https://github.com/MrTaherAmine/release-sentry) |
 | **Cyber Master Series — Certification Guides** | Free professional certification study guides, interactive editions, PDFs, corrections and release governance. | [Repository →](https://github.com/MrTaherAmine/cyber-master-series-certification-guides) |
 | **Conferences** | Slides, workshops and materials from selected talks and technical sessions. | [Repository →](https://github.com/MrTaherAmine/Conferences) |
 | **CVE-2018-10583** | Security research and proof-of-concept work around an information-disclosure vulnerability. | [Repository →](https://github.com/MrTaherAmine/CVE-2018-10583) |
@@ -265,3 +287,5 @@ If you're working on **cybersecurity governance, GRC, security assurance, SOC/CS
 <img src="https://komarev.com/ghpvc/?username=MrTaherAmine&style=flat-square&color=00b7c7&label=PROFILE+VIEWS" alt="Profile views">
 
 </div>
+
+
