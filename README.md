@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://taheramine.org">
-    <img src="./assets/profile-banner.svg" width="100%" alt="Taher Amine ELHOUARI — Cybersecurity Leadership, Assurance and Resilience">
+    <img src="./assets/taher-amine-command-center-v3.svg" width="100%" alt="Taher Amine ELHOUARI — Cybersecurity Leadership, Assurance and Resilience">
   </a>
 </p>
 
@@ -296,4 +296,5 @@ resilience, cloud security, professional training, research and open-source secu
 <sub>© 2000–2026 Taher Amine ELHOUARI · Built with purpose for the global cybersecurity community.</sub>
 
 </div>
+
 

@@ -1,0 +1,100 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050914"/>
+      <stop offset="0.54" stop-color="#071522"/>
+      <stop offset="1" stop-color="#0A1020"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="90" y1="110" x2="1490" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.52" stop-color="#19C3A3"/>
+      <stop offset="1" stop-color="#9B6CFF"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="translate(1280 250) rotate(180) scale(440 330)">
+      <stop stop-color="#00D4FF" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientTransform="translate(260 500) rotate(-42) scale(520 280)">
+      <stop stop-color="#8B5CF6" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#8EDCF2" stroke-opacity=".045"/>
+      <circle cx="1" cy="1" r="1" fill="#8EDCF2" fill-opacity=".075"/>
+    </pattern>
+    <filter id="blur24" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="500" rx="28" fill="url(#microGrid)"/>
+  <rect width="1600" height="500" rx="28" fill="url(#cyanGlow)"/>
+  <rect width="1600" height="500" rx="28" fill="url(#violetGlow)"/>
+  <rect x="1" y="1" width="1598" height="498" rx="27" stroke="url(#signal)" stroke-opacity=".32"/>
+
+  <!-- upper system rail -->
+  <g transform="translate(72 52)">
+    <circle cx="6" cy="6" r="6" fill="#19C3A3" filter="url(#glow)"/>
+    <text x="24" y="12" fill="#91A8BA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">TA // SECURITY COMMAND</text>
+    <path d="M286 6H850" stroke="#6B859A" stroke-opacity=".22"/>
+    <text x="872" y="12" fill="#638096" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.5">STATUS: OPERATIONAL</text>
+  </g>
+
+  <!-- primary identity -->
+  <g transform="translate(72 112)">
+    <text x="0" y="52" fill="#8EDFF6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="4">CYBERSECURITY LEADERSHIP / ASSURANCE / RESILIENCE</text>
+    <text x="0" y="128" fill="#F2F8FC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="64" font-weight="820" letter-spacing=".8">TAHER AMINE ELHOUARI</text>
+    <rect x="0" y="153" width="780" height="4" rx="2" fill="url(#signal)"/>
+    <text x="0" y="205" fill="#BCCBDA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="23" font-weight="560">CISO / DSSI  ·  Senior Principal Advisor  ·  Lead Auditor  ·  Certified Trainer</text>
+  </g>
+
+  <!-- capability chips -->
+  <g transform="translate(72 352)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">
+    <g><rect width="145" height="40" rx="10" fill="#0C1B2A" stroke="#00D4FF" stroke-opacity=".34"/><text x="20" y="25" fill="#BFEFFF">GOVERNANCE</text></g>
+    <g transform="translate(157)"><rect width="118" height="40" rx="10" fill="#0C1B2A" stroke="#11B9A8" stroke-opacity=".34"/><text x="23" y="25" fill="#C4F4EA">ASSURANCE</text></g>
+    <g transform="translate(287)"><rect width="125" height="40" rx="10" fill="#0C1B2A" stroke="#8B5CF6" stroke-opacity=".38"/><text x="21" y="25" fill="#DED2FF">RESILIENCE</text></g>
+    <g transform="translate(424)"><rect width="123" height="40" rx="10" fill="#0C1B2A" stroke="#00D4FF" stroke-opacity=".34"/><text x="22" y="25" fill="#BFEFFF">OPERATIONS</text></g>
+    <g transform="translate(559)"><rect width="142" height="40" rx="10" fill="#0C1B2A" stroke="#11B9A8" stroke-opacity=".34"/><text x="18" y="25" fill="#C4F4EA">OPEN SOURCE</text></g>
+  </g>
+
+  <!-- right command orb -->
+  <g transform="translate(1268 247)">
+    <circle r="168" fill="#071522" fill-opacity=".42" stroke="#00D4FF" stroke-opacity=".13"/>
+    <circle r="134" stroke="#00D4FF" stroke-opacity=".22" stroke-width="2" stroke-dasharray="2 11"/>
+    <circle r="101" stroke="#19C3A3" stroke-opacity=".25" stroke-width="2" stroke-dasharray="22 9"/>
+    <circle r="70" fill="#091929" stroke="url(#signal)" stroke-width="2"/>
+    <path d="M-155 0H155M0-155V155" stroke="#7ECFE3" stroke-opacity=".1"/>
+    <path d="M-112-112L112 112M112-112L-112 112" stroke="#7ECFE3" stroke-opacity=".07"/>
+    <circle r="18" fill="#00D4FF" fill-opacity=".1" stroke="#00D4FF" stroke-opacity=".65"/>
+    <text x="0" y="18" text-anchor="middle" fill="#F2F8FC" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="48" font-weight="850" letter-spacing="-2">TA</text>
+    <circle cx="95" cy="-95" r="6" fill="#19C3A3" filter="url(#glow)"/>
+    <circle cx="-107" cy="72" r="4" fill="#8B5CF6" filter="url(#glow)"/>
+  </g>
+
+  <!-- right telemetry -->
+  <g transform="translate(1450 120)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="end">
+    <text y="0" fill="#577489" font-size="12" letter-spacing="1.5">EXPERIENCE</text>
+    <text y="25" fill="#E2EEF5" font-size="18" font-weight="700">15+ YEARS</text>
+    <text y="74" fill="#577489" font-size="12" letter-spacing="1.5">CREDENTIALS</text>
+    <text y="99" fill="#E2EEF5" font-size="18" font-weight="700">300+</text>
+    <text y="148" fill="#577489" font-size="12" letter-spacing="1.5">MODE</text>
+    <text y="173" fill="#19C3A3" font-size="18" font-weight="700">BUILD / LEAD</text>
+  </g>
+
+  <!-- bottom rail -->
+  <g transform="translate(72 448)">
+    <path d="M0 0H1456" stroke="url(#signal)" stroke-opacity=".28"/>
+    <text y="25" fill="#628096" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.3">TAHERAMINE.ORG</text>
+    <text x="1456" y="25" text-anchor="end" fill="#628096" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.3">ALGERIA // GLOBAL REACH</text>
+  </g>
+
+  <!-- corner marks -->
+  <path d="M28 76V28H76" stroke="#00D4FF" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M1524 472H1572V424" stroke="#8B5CF6" stroke-opacity=".3" stroke-width="2"/>
+</svg>
+
