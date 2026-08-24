@@ -48,6 +48,18 @@ STANDARD   Evidence over theatre
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+<h2>⚡ TAE Command Center</h2>
+<p><strong>Built for me. Shared with the community.</strong></p>
+<p>A dark-first, local-first personal operations command center for projects, tasks, focus, follow-ups, deadlines, milestones, notes and daily execution. It began as a private tool built around my own workflow and is now available as an open-source project.</p>
+<p><code>Python</code> · <code>FastAPI</code> · <code>HTMX</code> · <code>SQLite</code> · <code>Local-first</code> · <code>Offline-capable</code></p>
+<p><strong>Operating model:</strong> single-user · local data ownership · secure-by-default · no telemetry · no cloud dependency</p>
+<p>
+  <a href="https://github.com/MrTaherAmine/TAE-Command-Center"><strong>Repository →</strong></a>
+</p>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h2>🛡️ Release Sentry</h2>
 <p><strong>Inspect release artifacts before they become security incidents.</strong></p>
@@ -74,6 +86,7 @@ STANDARD   Evidence over theatre
 </table>
 
 <p align="center">
+  <a href="https://github.com/MrTaherAmine/TAE-Command-Center"><img src="https://img.shields.io/badge/TAE_COMMAND_CENTER-EXPLORE-3B82F6?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="TAE Command Center"></a>
   <a href="https://github.com/MrTaherAmine/release-sentry"><img src="https://img.shields.io/badge/RELEASE_SENTRY-EXPLORE-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="Release Sentry"></a>
   <a href="https://github.com/MrTaherAmine/evidenceveil"><img src="https://img.shields.io/badge/EVIDENCEVEIL-EXPLORE-19C3A3?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="EvidenceVeil"></a>
 </p>
@@ -144,6 +157,7 @@ STANDARD   Evidence over theatre
 
 | Project | Mission | Access |
 |---|---|---|
+| **⚡ TAE Command Center** | Local-first personal operations system for projects, tasks, focus, follow-ups and deadlines. | [Repository →](https://github.com/MrTaherAmine/TAE-Command-Center) |
 | **🕶️ EvidenceVeil** | Privacy engineering for controlled cybersecurity evidence sharing. | [Repository →](https://github.com/MrTaherAmine/evidenceveil) |
 | **🛡️ Release Sentry** | Defensive release-artifact inspection before publication or deployment. | [Repository →](https://github.com/MrTaherAmine/release-sentry) |
 | **🧠 Cyber Master Series Guides** | Free professional certification guides and governed community releases. | [Repository →](https://github.com/MrTaherAmine/cyber-master-series-certification-guides) |
@@ -228,11 +242,13 @@ STANDARD   Evidence over theatre
 
 ```yaml
 building:
+  - TAE Command Center — continued iteration from real-world use
   - Open-source security and privacy engineering tools
   - Cyber Master Series
   - Professional cybersecurity books and practitioner toolkits
 
 recent_releases:
+  - TAE Command Center v1.0.0
   - EvidenceVeil v1.0.0
   - Release Sentry
 
