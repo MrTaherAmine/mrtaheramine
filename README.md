@@ -7,26 +7,14 @@
 <p align="center">
   <a href="https://taheramine.org"><img src="https://img.shields.io/badge/PORTFOLIO-TAHERAMINE.ORG-00D4FF?style=for-the-badge&labelColor=071522" alt="Portfolio"></a>
   <a href="https://taheramine.org/services.html"><img src="https://img.shields.io/badge/SERVICES-WORK_WITH_ME-19C3A3?style=for-the-badge&labelColor=071522" alt="Professional services"></a>
-  <a href="https://github.com/MrTaherAmine/release-sentry"><img src="https://img.shields.io/badge/FLAGSHIP-RELEASE_SENTRY-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="Release Sentry"></a>
+  <a href="https://github.com/MrTaherAmine?tab=repositories"><img src="https://img.shields.io/badge/OPEN_SOURCE-EXPLORE_BUILDS-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="Open source portfolio"></a>
   <a href="https://www.linkedin.com/in/MrTaherAmine/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071522" alt="LinkedIn"></a>
   <a href="https://taheramine.org/podcast.html"><img src="https://img.shields.io/badge/PODCAST-LISTEN-9B6CFF?style=for-the-badge&logo=applepodcasts&logoColor=white&labelColor=071522" alt="The InfoSec Control Room"></a>
 </p>
 
 <p align="center">
-  <a href="#mission"><strong>MISSION</strong></a>
-  &nbsp;·&nbsp;
-  <a href="#capabilities"><strong>CAPABILITIES</strong></a>
-  &nbsp;·&nbsp;
-  <a href="#release-sentry"><strong>FLAGSHIP BUILD</strong></a>
-  &nbsp;·&nbsp;
-  <a href="#ecosystem"><strong>ECOSYSTEM</strong></a>
-  &nbsp;·&nbsp;
-  <a href="#proof"><strong>PROOF</strong></a>
-  &nbsp;·&nbsp;
-  <a href="#connect"><strong>CONNECT</strong></a>
+  <strong>Cybersecurity leadership · GRC · Assurance · SOC/CSIRT · Resilience · Open Source</strong>
 </p>
-
-<br>
 
 <div align="center">
 
@@ -38,19 +26,13 @@
 
 ---
 
-<a id="mission"></a>
-
 ## `01 // mission`
 
 ### I make cybersecurity governable, defensible and operational.
 
-I work where **cybersecurity, governance, assurance, operations and leadership** meet. I help
-organizations convert standards, risk, technology and executive intent into security programs
-that are **measurable, resilient, auditable and usable in the real world**.
+I work where **cybersecurity, governance, assurance, operations and leadership** meet — helping organizations turn standards, risk, technology and executive intent into security programs that are **measurable, resilient, auditable and usable in the real world**.
 
 ```text
-taher@cyber:~$ ./mission --brief
-
 INPUT      Risk · Complexity · Regulation · Operational reality
 METHOD     Govern · Defend · Assure · Enable
 OUTPUT     Security programs that survive audits and incidents
@@ -62,9 +44,43 @@ STANDARD   Evidence over theatre
 
 ---
 
-<a id="capabilities"></a>
+## `02 // featured-builds`
 
-## `02 // capability-deck`
+<table>
+<tr>
+<td width="50%" valign="top">
+<h2>🛡️ Release Sentry</h2>
+<p><strong>Inspect release artifacts before they become security incidents.</strong></p>
+<p>A local-first defensive CLI for scanning release packages before publication or deployment.</p>
+<p><code>Secrets</code> · <code>Archive safety</code> · <code>Policy checks</code> · <code>Static-site validation</code></p>
+<p><strong>Trust model:</strong> local · offline · read-only · no telemetry · no artifact execution</p>
+<p>
+  <a href="https://github.com/MrTaherAmine/release-sentry"><strong>Repository →</strong></a><br>
+  <a href="https://github.com/MrTaherAmine/release-sentry/releases/latest"><strong>Latest release →</strong></a>
+</p>
+</td>
+<td width="50%" valign="top">
+<h2>🕶️ EvidenceVeil</h2>
+<p><strong>Share incident data without exposing the incident.</strong></p>
+<p>A local-first privacy engineering tool for sanitizing, pseudonymizing, auditing and packaging cybersecurity evidence before it is shared.</p>
+<p><code>Discovery</code> · <code>Pseudonymization</code> · <code>Risk audit</code> · <code>Encrypted vault</code></p>
+<p><strong>Security model:</strong> local-first · policy-driven · source-preserving · review-oriented</p>
+<p>
+  <a href="https://github.com/MrTaherAmine/evidenceveil"><strong>Repository →</strong></a><br>
+  <a href="https://github.com/MrTaherAmine/evidenceveil/releases/tag/v1.0.0"><strong>v1.0.0 release →</strong></a>
+</p>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/MrTaherAmine/release-sentry"><img src="https://img.shields.io/badge/RELEASE_SENTRY-EXPLORE-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="Release Sentry"></a>
+  <a href="https://github.com/MrTaherAmine/evidenceveil"><img src="https://img.shields.io/badge/EVIDENCEVEIL-EXPLORE-19C3A3?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="EvidenceVeil"></a>
+</p>
+
+---
+
+## `03 // capability-deck`
 
 <table>
 <tr>
@@ -97,49 +113,13 @@ STANDARD   Evidence over theatre
 
 ---
 
-<a id="release-sentry"></a>
-
-## `03 // flagship-build`
-
-<table>
-<tr>
-<td width="66%" valign="top">
-<h2>🛡️ Release Sentry</h2>
-<p><strong>Inspect release artifacts before they become security incidents.</strong></p>
-<p>Release Sentry is a production-ready, local-first defensive CLI that scans release packages before publication or deployment.</p>
-<p>It detects exposed secrets, hostile archive structures, sensitive files, unsafe permissions, missing production assets, broken static-site references and policy violations.</p>
-<p><strong>Trust model:</strong> local · offline · read-only · no telemetry · no blind extraction · no artifact execution.</p>
-</td>
-<td width="34%" valign="top">
-<h3>RELEASE TELEMETRY</h3>
-<table>
-<tr><td><strong>Version</strong></td><td><code>1.0.1</code></td></tr>
-<tr><td><strong>Coverage</strong></td><td><code>100%</code></td></tr>
-<tr><td><strong>Runtime</strong></td><td><code>Python 3.11+</code></td></tr>
-<tr><td><strong>License</strong></td><td><code>MIT</code></td></tr>
-<tr><td><strong>Mode</strong></td><td><code>Local-first</code></td></tr>
-</table>
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/MrTaherAmine/release-sentry"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="Explore Release Sentry"></a>
-  <a href="https://github.com/MrTaherAmine/release-sentry/releases/latest"><img src="https://img.shields.io/badge/DOWNLOAD-LATEST_RELEASE-19C3A3?style=for-the-badge&labelColor=071522" alt="Download Release Sentry"></a>
-  <a href="https://github.com/MrTaherAmine/release-sentry/blob/main/README.md"><img src="https://img.shields.io/badge/READ-DOCUMENTATION-8B5CF6?style=for-the-badge&labelColor=071522" alt="Read Release Sentry documentation"></a>
-</p>
-
----
-
-<a id="ecosystem"></a>
-
 ## `04 // ecosystem`
 
 <table>
 <tr>
 <td width="33.33%" valign="top">
 <h3>🧠 Cyber Master Series</h3>
-<p>A professional knowledge ecosystem connecting learning, certification and applied cybersecurity practice.</p>
+<p>Professional learning, certification and applied cybersecurity practice.</p>
 <p><code>Study Guides</code><br><code>Professional Books</code><br><code>Practitioner Toolkits</code></p>
 <p><a href="https://taheramine.org/cyber-master-series/"><strong>Explore →</strong></a></p>
 </td>
@@ -151,7 +131,7 @@ STANDARD   Evidence over theatre
 </td>
 <td width="33.33%" valign="top">
 <h3>🎙️ The InfoSec Control Room</h3>
-<p>A podcast about the decisions behind security programs—governance, ownership, risk, controls, operations and resilience.</p>
+<p>A podcast about the decisions behind security programs — governance, ownership, risk, controls, operations and resilience.</p>
 <p><code>Leadership</code><br><code>Applied Security</code><br><code>Real Decisions</code></p>
 <p><a href="https://taheramine.org/podcast.html"><strong>Listen →</strong></a></p>
 </td>
@@ -160,9 +140,24 @@ STANDARD   Evidence over theatre
 
 ---
 
-<a id="proof"></a>
+## `05 // selected-open-source`
 
-## `05 // proof-of-work`
+| Project | Mission | Access |
+|---|---|---|
+| **🕶️ EvidenceVeil** | Privacy engineering for controlled cybersecurity evidence sharing. | [Repository →](https://github.com/MrTaherAmine/evidenceveil) |
+| **🛡️ Release Sentry** | Defensive release-artifact inspection before publication or deployment. | [Repository →](https://github.com/MrTaherAmine/release-sentry) |
+| **🧠 Cyber Master Series Guides** | Free professional certification guides and governed community releases. | [Repository →](https://github.com/MrTaherAmine/cyber-master-series-certification-guides) |
+| **🎤 Conferences** | Selected presentation, workshop and technical-session materials. | [Repository →](https://github.com/MrTaherAmine/Conferences) |
+| **🔬 CVE-2018-10583** | Vulnerability research and proof-of-concept work. | [Repository →](https://github.com/MrTaherAmine/CVE-2018-10583) |
+| **🔐 Strong Password Generator** | Lightweight Python password-generation utility. | [Repository →](https://github.com/MrTaherAmine/Strong-Password-Generator) |
+
+<p align="center">
+  <a href="https://github.com/MrTaherAmine?tab=repositories"><strong>Explore the complete repository portfolio →</strong></a>
+</p>
+
+---
+
+## `06 // proof-of-work`
 
 <div align="center">
 
@@ -194,22 +189,6 @@ STANDARD   Evidence over theatre
 </td>
 </tr>
 </table>
-
----
-
-## `06 // selected-open-source`
-
-| Project | Mission | Access |
-|---|---|---|
-| **🛡️ Release Sentry** | Defensive release-artifact inspection before publication or deployment. | [Repository →](https://github.com/MrTaherAmine/release-sentry) |
-| **🧠 Cyber Master Series Guides** | Free professional certification guides and governed community releases. | [Repository →](https://github.com/MrTaherAmine/cyber-master-series-certification-guides) |
-| **🎤 Conferences** | Selected presentation, workshop and technical-session materials. | [Repository →](https://github.com/MrTaherAmine/Conferences) |
-| **🔬 CVE-2018-10583** | Vulnerability research and proof-of-concept work. | [Repository →](https://github.com/MrTaherAmine/CVE-2018-10583) |
-| **🔐 Strong Password Generator** | Lightweight Python password-generation utility. | [Repository →](https://github.com/MrTaherAmine/Strong-Password-Generator) |
-
-<p align="center">
-  <a href="https://github.com/MrTaherAmine?tab=repositories"><strong>Enter the complete repository portfolio →</strong></a>
-</p>
 
 ---
 
@@ -249,9 +228,13 @@ STANDARD   Evidence over theatre
 
 ```yaml
 building:
-  - Security tools that solve real practitioner problems
+  - Open-source security and privacy engineering tools
   - Cyber Master Series
-  - Professional cybersecurity books and toolkits
+  - Professional cybersecurity books and practitioner toolkits
+
+recent_releases:
+  - EvidenceVeil v1.0.0
+  - Release Sentry
 
 publishing:
   - Free certification study guides
@@ -268,8 +251,6 @@ open_to:
 ```
 
 ---
-
-<a id="connect"></a>
 
 ## `09 // secure-channel`
 
@@ -296,5 +277,3 @@ resilience, cloud security, professional training, research and open-source secu
 <sub>© 2000–2026 Taher Amine ELHOUARI · Built with purpose for the global cybersecurity community.</sub>
 
 </div>
-
-
