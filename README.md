@@ -49,6 +49,19 @@ STANDARD   Evidence over theatre
 <table>
 <tr>
 <td colspan="2" valign="top">
+<h2>🧭 DZ Privacy Compass</h2>
+<p><strong>Open Algerian Data Protection Governance & Compliance Toolkit.</strong></p>
+<p>A self-hostable privacy governance platform built around Algeria's Law 18-07 and Law 25-11 — combining legal requirements, processing activities, DPO operations, rights requests, risks, evidence, privacy-by-design, ANPDP readiness, reporting and executive visibility in one operational workspace.</p>
+<p><code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>FR/AR/EN</code></p>
+<p><strong>Operating model:</strong> self-hosted · privacy-first · evidence-driven · multilingual · secure-by-default · open source</p>
+<p>
+  <a href="https://github.com/MrTaherAmine/DZ-Privacy-Compass"><strong>Repository →</strong></a><br>
+  <a href="https://github.com/MrTaherAmine/DZ-Privacy-Compass/releases/tag/v1.0.0"><strong>v1.0.0 release →</strong></a>
+</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
 <h2>⚡ TAE Command Center</h2>
 <p><strong>Built for me. Shared with the community.</strong></p>
 <p>A dark-first, local-first personal operations command center for projects, tasks, focus, follow-ups, deadlines, milestones, notes and daily execution. It began as a private tool built around my own workflow and is now available as an open-source project.</p>
@@ -86,6 +99,7 @@ STANDARD   Evidence over theatre
 </table>
 
 <p align="center">
+  <a href="https://github.com/MrTaherAmine/DZ-Privacy-Compass"><img src="https://img.shields.io/badge/DZ_PRIVACY_COMPASS-EXPLORE-14B8A6?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="DZ Privacy Compass"></a>
   <a href="https://github.com/MrTaherAmine/TAE-Command-Center"><img src="https://img.shields.io/badge/TAE_COMMAND_CENTER-EXPLORE-3B82F6?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="TAE Command Center"></a>
   <a href="https://github.com/MrTaherAmine/release-sentry"><img src="https://img.shields.io/badge/RELEASE_SENTRY-EXPLORE-00D4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="Release Sentry"></a>
   <a href="https://github.com/MrTaherAmine/evidenceveil"><img src="https://img.shields.io/badge/EVIDENCEVEIL-EXPLORE-19C3A3?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="EvidenceVeil"></a>
@@ -157,6 +171,7 @@ STANDARD   Evidence over theatre
 
 | Project | Mission | Access |
 |---|---|---|
+| **🧭 DZ Privacy Compass** | Open Algerian data protection governance and compliance toolkit for Law 18-07, Law 25-11, DPO operations, evidence, assurance and privacy workflows. | [Repository →](https://github.com/MrTaherAmine/DZ-Privacy-Compass) · [v1.0.0 →](https://github.com/MrTaherAmine/DZ-Privacy-Compass/releases/tag/v1.0.0) |
 | **⚡ TAE Command Center** | Local-first personal operations system for projects, tasks, focus, follow-ups and deadlines. | [Repository →](https://github.com/MrTaherAmine/TAE-Command-Center) |
 | **🕶️ EvidenceVeil** | Privacy engineering for controlled cybersecurity evidence sharing. | [Repository →](https://github.com/MrTaherAmine/evidenceveil) |
 | **🛡️ Release Sentry** | Defensive release-artifact inspection before publication or deployment. | [Repository →](https://github.com/MrTaherAmine/release-sentry) |
@@ -242,12 +257,14 @@ STANDARD   Evidence over theatre
 
 ```yaml
 building:
+  - DZ Privacy Compass — continued hardening and community-driven iteration
   - TAE Command Center — continued iteration from real-world use
   - Open-source security and privacy engineering tools
   - Cyber Master Series
   - Professional cybersecurity books and practitioner toolkits
 
 recent_releases:
+  - DZ Privacy Compass v1.0.0
   - TAE Command Center v1.0.0
   - EvidenceVeil v1.0.0
   - Release Sentry
