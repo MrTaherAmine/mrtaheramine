@@ -3,7 +3,6 @@
     <img src="./assets/taher-amine-command-center-v3.svg" width="100%" alt="Taher Amine ELHOUARI — Cybersecurity Leadership, Assurance and Resilience">
   </a>
 </p>
-
 <p align="center">
   <a href="https://taheramine.org"><img src="https://img.shields.io/badge/PORTFOLIO-TAHERAMINE.ORG-00D4FF?style=for-the-badge&labelColor=071522" alt="Portfolio"></a>
   <a href="https://taheramine.org/services.html"><img src="https://img.shields.io/badge/SERVICES-WORK_WITH_ME-19C3A3?style=for-the-badge&labelColor=071522" alt="Professional services"></a>
@@ -11,7 +10,6 @@
   <a href="https://www.linkedin.com/in/MrTaherAmine/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071522" alt="LinkedIn"></a>
   <a href="https://taheramine.org/podcast.html"><img src="https://img.shields.io/badge/PODCAST-LISTEN-9B6CFF?style=for-the-badge&logo=applepodcasts&logoColor=white&labelColor=071522" alt="The InfoSec Control Room"></a>
 </p>
-
 <p align="center">
   <strong>Cybersecurity leadership · GRC · Assurance · SOC/CSIRT · Resilience · Open Source</strong>
 </p>
@@ -25,9 +23,7 @@
 </div>
 
 ---
-
 ## `01 // mission`
-
 ### I make cybersecurity governable, defensible and operational.
 
 I work where **cybersecurity, governance, assurance, operations and leadership** meet — helping organizations turn standards, risk, technology and executive intent into security programs that are **measurable, resilient, auditable and usable in the real world**.
@@ -39,11 +35,10 @@ OUTPUT     Security programs that survive audits and incidents
 STANDARD   Evidence over theatre
 ```
 
-> **Most organizations do not have a security problem.  
+> **Most organizations do not have a security problem.
 > They have a governance problem that manifests as security.**
 
 ---
-
 ## `02 // featured-builds`
 
 <table>
@@ -60,6 +55,7 @@ STANDARD   Evidence over theatre
 </p>
 </td>
 </tr>
+
 <tr>
 <td colspan="2" valign="top">
 <h2>⚡ TAE Command Center</h2>
@@ -72,6 +68,7 @@ STANDARD   Evidence over theatre
 </p>
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 <h2>🛡️ Release Sentry</h2>
@@ -84,6 +81,7 @@ STANDARD   Evidence over theatre
   <a href="https://github.com/MrTaherAmine/release-sentry/releases/latest"><strong>Latest release →</strong></a>
 </p>
 </td>
+
 <td width="50%" valign="top">
 <h2>🕶️ EvidenceVeil</h2>
 <p><strong>Share incident data without exposing the incident.</strong></p>
@@ -106,7 +104,6 @@ STANDARD   Evidence over theatre
 </p>
 
 ---
-
 ## `03 // capability-deck`
 
 <table>
@@ -116,16 +113,19 @@ STANDARD   Evidence over theatre
 <p><strong>Strategy · GRC · vCISO</strong></p>
 <p>Security governance, enterprise risk, ISMS/BCMS/PIMS, operating models, executive reporting, compliance and maturity roadmaps.</p>
 </td>
+
 <td width="25%" valign="top">
 <h3>◈ DEFEND</h3>
 <p><strong>SOC · CSIRT · Resilience</strong></p>
 <p>Security operations, incident response, crisis management, threat intelligence, SIEM/SOAR, DFIR, VAPT and red/purple teaming.</p>
 </td>
+
 <td width="25%" valign="top">
 <h3>◈ ASSURE</h3>
 <p><strong>Audit · Controls · Certification</strong></p>
 <p>Accredited audits, security assurance, certification readiness, control assessments, framework mapping and evidence-led improvement.</p>
 </td>
+
 <td width="25%" valign="top">
 <h3>◈ ENABLE</h3>
 <p><strong>Training · Exercises · Mentoring</strong></p>
@@ -139,7 +139,6 @@ STANDARD   Evidence over theatre
 </p>
 
 ---
-
 ## `04 // ecosystem`
 
 <table>
@@ -147,15 +146,25 @@ STANDARD   Evidence over theatre
 <td width="33.33%" valign="top">
 <h3>🧠 Cyber Master Series</h3>
 <p>Professional learning, certification and applied cybersecurity practice.</p>
-<p><code>Study Guides</code><br><code>Professional Books</code><br><code>Practitioner Toolkits</code></p>
-<p><a href="https://taheramine.org/cyber-master-series/"><strong>Explore →</strong></a></p>
+<p>
+<code>Study Guides</code><br>
+<code>Professional Books</code><br>
+<code>Practitioner Toolkits</code><br>
+<code>Free Framework Tools</code>
+</p>
+<p>
+<a href="https://taheramine.org/cyber-master-series/"><strong>Explore Series →</strong></a><br>
+<a href="https://github.com/MrTaherAmine/Cyber-Master-Series-Free-Tools"><strong>Free Tools →</strong></a>
+</p>
 </td>
+
 <td width="33.33%" valign="top">
 <h3>🎓 Certification Study Series</h3>
 <p>Free community editions built from official objectives, authoritative references and practical context.</p>
 <p><code>Interactive Editions</code><br><code>Downloadable PDFs</code><br><code>Versioned Releases</code></p>
 <p><a href="https://taheramine.org/cyber-master-series/certification-guides/"><strong>Browse →</strong></a></p>
 </td>
+
 <td width="33.33%" valign="top">
 <h3>🎙️ The InfoSec Control Room</h3>
 <p>A podcast about the decisions behind security programs — governance, ownership, risk, controls, operations and resilience.</p>
@@ -166,7 +175,6 @@ STANDARD   Evidence over theatre
 </table>
 
 ---
-
 ## `05 // selected-open-source`
 
 | Project | Mission | Access |
@@ -176,6 +184,7 @@ STANDARD   Evidence over theatre
 | **🕶️ EvidenceVeil** | Privacy engineering for controlled cybersecurity evidence sharing. | [Repository →](https://github.com/MrTaherAmine/evidenceveil) |
 | **🛡️ Release Sentry** | Defensive release-artifact inspection before publication or deployment. | [Repository →](https://github.com/MrTaherAmine/release-sentry) |
 | **🧠 Cyber Master Series Guides** | Free professional certification guides and governed community releases. | [Repository →](https://github.com/MrTaherAmine/cyber-master-series-certification-guides) |
+| **🧰 Cyber Master Series — Free Tools** | Free practical cybersecurity, GRC, assurance and resilience tools. Includes **RNSI Compass v1.0.0**, an interactive Excel toolkit for Algeria's RNSI 2020, with additional framework-specific tools planned. | [Repository →](https://github.com/MrTaherAmine/Cyber-Master-Series-Free-Tools) · [RNSI Compass →](https://github.com/MrTaherAmine/Cyber-Master-Series-Free-Tools/tree/main/RNSI-Compass) |
 | **🎤 Conferences** | Selected presentation, workshop and technical-session materials. | [Repository →](https://github.com/MrTaherAmine/Conferences) |
 | **🔬 CVE-2018-10583** | Vulnerability research and proof-of-concept work. | [Repository →](https://github.com/MrTaherAmine/CVE-2018-10583) |
 | **🔐 Strong Password Generator** | Lightweight Python password-generation utility. | [Repository →](https://github.com/MrTaherAmine/Strong-Password-Generator) |
@@ -185,7 +194,6 @@ STANDARD   Evidence over theatre
 </p>
 
 ---
-
 ## `06 // proof-of-work`
 
 <div align="center">
@@ -207,6 +215,7 @@ STANDARD   Evidence over theatre
 <li><strong>Knowledge sharing</strong> — international speaker, trainer, mentor and program committee contributor</li>
 </ul>
 </td>
+
 <td width="50%" valign="top">
 <h3>Recognition</h3>
 <ul>
@@ -220,7 +229,6 @@ STANDARD   Evidence over theatre
 </table>
 
 ---
-
 ## `07 // capability-matrix`
 
 <details>
@@ -252,18 +260,18 @@ STANDARD   Evidence over theatre
 </details>
 
 ---
-
 ## `08 // live-signal`
 
 ```yaml
 building:
   - DZ Privacy Compass — continued hardening and community-driven iteration
   - TAE Command Center — continued iteration from real-world use
+  - Cyber Master Series Free Tools — expanding practical framework-specific GRC and assessment tools
   - Open-source security and privacy engineering tools
-  - Cyber Master Series
   - Professional cybersecurity books and practitioner toolkits
 
 recent_releases:
+  - RNSI Compass v1.0.0 — Cyber Master Series Free Tools
   - DZ Privacy Compass v1.0.0
   - TAE Command Center v1.0.0
   - EvidenceVeil v1.0.0
@@ -271,6 +279,7 @@ recent_releases:
 
 publishing:
   - Free certification study guides
+  - Free framework assessment and GRC tools
   - Applied cybersecurity resources
   - Research and conference material
 
@@ -284,7 +293,6 @@ open_to:
 ```
 
 ---
-
 ## `09 // secure-channel`
 
 <div align="center">
